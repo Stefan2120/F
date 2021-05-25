@@ -1,0 +1,193 @@
+.menu{
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0%;
+    opacity: 0.9;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 100px;
+    padding: 15px;
+}
+.menu a:hover{
+    background-color: rgb(105, 105, 206);
+    color: rgb(255, 255, 255);
+}
+.header{
+    text-align: center;
+    color: white;
+    background-image: url(/Img/polygons.png);
+    padding: 200px 0px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    margin-top: 48px;
+}
+.header a{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+.header p{
+    margin: 60px;
+}
+.header a:hover{
+    background-color: gray;
+}
+body{
+    margin: 0px;
+}
+.about{
+    text-align: justify;
+    max-width: 1200px;
+    padding: 40px;
+    margin: 0px auto;
+}
+.about img{
+    width: 400px;
+    float: right;
+    margin: 30px;
+    margin-top: 0px;
+}
+.about h1{
+    text-align: center;
+}
+.member{
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid rgb(202, 202, 202);
+    width: 20%;
+    padding: 25px;
+    box-shadow: 0px 2px 5px gray;
+    min-width: 340px;
+    text-align: left;
+}
+.member img{
+    width: 100%;
+}
+.member a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    display: inline-block;
+    background-color: rgb(0, 84, 117);
+    width: 100%;
+    text-align: center;
+    padding: 14px 0px;
+    border-radius: 10px;
+}
+.position{
+    color: gray;
+}
+.team{
+    text-align: center;
+}
+.prices a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+}
+.prices{
+    text-align: center;
+    background-color: #6B6B6B;
+    padding: 100px 0;
+}
+.TarifF li{
+    list-style: none;
+    border-bottom: 1px solid gray;
+    padding: 16px 0;
+}
+.prices h1,.prices h1 + p{
+    color: white;    
+}
+.TarifF{
+    background-color: white;
+    width: 30%;
+    padding: 0px;
+    margin: 10px;
+    display: inline-block;
+    height: 478px;
+}
+.TarifFname{
+    color: white;
+    background-color: black;
+    font-size: 24px;
+    padding: 32px 0;
+}
+.fat{
+    font-weight: 900;
+}
+.price{
+    font-size: 30px;
+    color: black;
+}
+.buy{
+    background-color: rgb(197, 210, 223);
+}
+
+.buy a:hover{
+    background-color: rgb(0, 84, 117);
+}
+.TarifF:hover{
+    height: 500px;
+}
+.TarifF:hover > .TarifFname{
+    
+    background-color: rgb(0, 84, 117);
+}
+.TarifF:hover > .buy{
+    padding: 43px 0;
+}
+.cn h1, p{
+    text-align: center;
+}
+.un p{
+    text-align: left;
+}
+.un img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+input{
+    margin-top: 7px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+.cn{
+    background-color: rgb(228, 236, 238);
+    padding-bottom: 60px;
+}
+.cn h1{
+    margin: 0px;
+    padding-top: 50px;
+}
+.un{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+}
+.button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px; 
+    margin-bottom: 20px;
+}
+.huk{
+    background-color: black;
+    color: white;
+
+}
